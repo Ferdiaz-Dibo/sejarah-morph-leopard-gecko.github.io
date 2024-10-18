@@ -100,7 +100,7 @@ p{
 
 @media (max-width: 768px) {
     .gallery-item {
-        width: calc(50% - 10px); /* 2 gambar per baris */
+        width: 100%; /* 2 gambar per baris */
     }
     .gallery-item {
         width: 100%; /* 1 gambar per baris */
@@ -109,4 +109,8 @@ p{
     .gallery-item img{
         padding-left: 45px;
     }
+    .navbar {
+        flex-direction: column;
+    }
+    
 }
