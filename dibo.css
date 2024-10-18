@@ -95,17 +95,17 @@ p{
     width: 200px;
     height: 200px;
     display: block;
-    padding-left: 90px;
+    padding-left: 30px;
 }
 
 @media (max-width: 768px) {
     .gallery-item {
         width: 100%; /* 2 gambar per baris */
-        padding-left: 90px;
+        padding-left: 30px;
     }
     .gallery-item {
         width: 100%; /* 1 gambar per baris */
-        padding-left: 90px;
+        padding-left: 30px;
     }
     .navbar {
         flex-direction: column;
@@ -118,6 +118,6 @@ p{
         width: 150px;
         height: 150px;
         display: block;
-        padding-left: 90px;
+        padding-left: 30px;
     }
 }
