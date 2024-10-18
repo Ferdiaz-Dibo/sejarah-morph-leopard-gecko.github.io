@@ -78,7 +78,7 @@ h1 {
 .gallery-item {
     background-color: rgb(0, 0, 0);
     border: 1px solid #ffffff;
-    border-radius: 5px;
+    border-radius: 30px;
     overflow: hidden;
     width: calc(33.333% - 10px); /* 3 gambar per baris */
     padding-bottom: 50px;
@@ -95,17 +95,18 @@ p{
     width: 200px;
     height: 200px;
     display: block;
-    padding-left: 30px;
+    padding-left: 25px;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
     .gallery-item {
         width: 100%; /* 2 gambar per baris */
-        padding-left: 30px;
+        padding-left: 25px;
     }
     .gallery-item {
         width: 100%; /* 1 gambar per baris */
-        padding-left: 30px;
+        padding-left: 25px;
     }
     .navbar {
         flex-direction: column;
@@ -118,6 +119,7 @@ p{
         width: 150px;
         height: 150px;
         display: block;
-        padding-left: 30px;
+        padding-left: 25px;
+        text-align: center;
     }
 }
