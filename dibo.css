@@ -95,7 +95,6 @@ p{
     width: 200px;
     height: 200px;
     display: block;
-    padding-left: 85px;
 }
 
 @media (max-width: 768px) {
